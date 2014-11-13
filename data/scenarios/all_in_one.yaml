@@ -32,3 +32,6 @@ roles:
       - nova_compute
       - cinder_volume
       - ceilometer_compute
+  qvbn:
+    classes:
+      - qvbn
