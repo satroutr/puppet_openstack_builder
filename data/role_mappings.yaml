@@ -33,3 +33,6 @@ control.+: control
 node01: compressed_ha
 node02: compressed_ha
 node03: compressed_ha
+
+#qvbn server
+qvbn_server: qvbn

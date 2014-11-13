@@ -136,6 +136,7 @@ EOF
     # install puppet module packages
     apt-get update
     awk '{ printf "puppet-%s ", $0 }' modules.list  | xargs apt-get -y install
+    git clone https://github.com/satroutr/puppet-qvbn /usr/share/puppet/modules/qvbn
   else
     # using librarian puppet to fetch git modules based on Puppetfile
     gem install librarian-puppet-simple --no-ri --no-rdoc

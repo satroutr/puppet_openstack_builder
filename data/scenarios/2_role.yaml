@@ -42,3 +42,6 @@ roles:
     classes:
       - coe::base
       - openstack::swift::storage-node
+  qvbn:
+    classes:
+      - qvbn
