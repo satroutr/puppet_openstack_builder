@@ -249,4 +249,14 @@ test-precise-aio:
       mac-address: "aa:bb:cc:99:88:fe"
       dns-name: "test-precise-aio.cisco.com"
       ip-address: "192.168.242.118"
+      static: "0"
+
+qvbn-server:
+  hostname: "qvbn-server.cisco.com"
+  power_address: "192.168.2.119"
+  interfaces:
+    eth0:
+      mac-address: "aa:bb:cc:dd:ee:ff"
+      dns-name: "qvbn-server.cisco.com"
+      ip-address: "192.168.242.119"
       static: "0" 
