@@ -35,4 +35,4 @@ node02: compressed_ha
 node03: compressed_ha
 
 #qvbn server
-qvbn_server: qvbn
+qvbn-server: qvbn
