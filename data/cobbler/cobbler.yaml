@@ -254,6 +254,7 @@ test-precise-aio:
 qvbn-server:
   hostname: "qvbn-server.cisco.com"
   power_address: "192.168.2.119"
+  profile: "trusty-x86_64"
   interfaces:
     eth0:
       mac-address: "aa:bb:cc:dd:ee:ff"
